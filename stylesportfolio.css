@@ -1,0 +1,118 @@
+html {
+    background-color: #ccbebd;
+    /* Color possible templates */
+}
+
+/* BODY */
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 20px;
+}
+
+/* HEAD */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    border-bottom: 2px solid green;
+}
+
+.cafe-image {
+    width:10%;
+}
+
+.head-info {
+    height: 150px;
+}
+
+.head-info h2 {
+    text-shadow: 1px 1px 5px rgb(105, 102, 102);
+    font-size: 35px;
+}
+
+.head-info div {
+    align-items: center;
+}
+
+.head-info div p {
+    display: block;
+    max-width: 400px;
+}
+
+.head-info ul {
+    display: flex;
+    list-style:none;
+    justify-content: space-around;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.head-info ul li {
+    margin-left: 18px;
+}
+
+/* TEXT */
+
+.main {
+    align-content: center;
+}
+
+
+.info, .estudos, .projetos {
+    display: inline-block;
+    border: 2px solid green;
+    max-width: 800px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(5, 53, 5);
+    opacity: 0,5;
+}
+
+.projetos {
+    margin-top: -7px;
+}
+
+.estudos {
+    float: right;
+}
+
+.centralinfo {
+    column-gap: 80px;
+    box-align: center;
+    border-left: 50px;
+    padding: 50px;
+}
+
+.estudos div {
+    display: flex;
+}
+
+.estudos ul {
+    height: 200px;
+}
+
+/* DRAWINGS */ 
+
+.tree {
+    width: 35%;
+    max-width: 500px;
+    height: auto;
+    display: inline-block;
+}
+
+#pic2 {
+    float: right;
+}
+
+#pic3 {
+    float: center;
+    width: 0,6;
+}
+.contato {
+    text-align: center;
+}
